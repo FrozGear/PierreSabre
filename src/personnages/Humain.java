@@ -37,8 +37,7 @@ public class Humain {
 			perdreArgent(prix);
 		}
 		else {
-			parler("Je n'ai plus que "+argent+" sous en poche. Je ne peux même pas m'offrir "+bien+" à\r\n" + 
-					""+prix+" sous");
+			parler("Je n'ai plus que "+argent+" sous en poche. Je ne peux même pas m'offrir "+bien+" à "+prix+" sous");
 		}
 	}
 	
