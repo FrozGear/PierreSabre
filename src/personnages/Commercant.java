@@ -4,7 +4,7 @@ public class Commercant extends Humain {
 	
 	public Commercant(String nom, int argent) {
 		super(nom, "the", argent);
-	}
+	}	
 	
 	public int seFaireExtorquer() {
 		int racket = this.getArgent();

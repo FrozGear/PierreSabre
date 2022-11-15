@@ -17,5 +17,10 @@ public class HistoireTP4 {
 		teste2.seFaireExtorquer();
 		teste2.recevoir(15);
 		teste2.boire();
+		
+		Yakuza teste3 = new Yakuza("Yaku Le Noir", 30);
+//		teste3.nomDeClan("Warsong");
+		teste3.direBonjour();
+		teste3.extorquer(teste2);
 	}
 }
